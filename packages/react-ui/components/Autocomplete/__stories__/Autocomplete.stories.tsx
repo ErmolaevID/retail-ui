@@ -100,7 +100,7 @@ export const WithMaxWidth = () => (
     />
   </div>
 );
-WithMaxWidth.story = { name: 'width max width' };
+WithMaxWidth.story = { name: 'with max width' };
 
 export const WithFixedWidth = () => (
   <UncontrolledAutocomplete
@@ -109,4 +109,4 @@ export const WithFixedWidth = () => (
     renderItem={(x: string) => <div>Item: {x.toUpperCase()}</div>}
   />
 );
-WithFixedWidth.story = { name: 'width fixed width' };
+WithFixedWidth.story = { name: 'with fixed width' };
